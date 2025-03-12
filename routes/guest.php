@@ -9,5 +9,6 @@ Route::controller(GuestRouteController::class)->group(function(){
     Route::get('/profile', 'profile')->name('profile');
     Route::get('/message', 'message')->name('message');
     Route::get('/gallery', 'gallery')->name('gallery');
+    Route::get('/media-coverage', 'media')->name('media-coverage');
 
 });

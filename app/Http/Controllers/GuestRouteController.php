@@ -30,4 +30,9 @@ class GuestRouteController extends Controller
    {
        return view('main.others.gallery');
    }
+
+   public function media()
+   {
+       return view('main.others.media');
+   }
 }
