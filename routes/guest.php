@@ -16,4 +16,5 @@ Route::controller(GuestRouteController::class)->group(function(){
 
 Route::controller(ProjectRouteController::class)->group(function(){
     Route::get('/all-projects', 'allProjects')->name('all-projects');
+    Route::get('/upcoming-project', 'upcomingProject')->name('upcoming-project');
 });
