@@ -20,4 +20,9 @@ class GuestRouteController extends Controller
    {
        return view('main.others.profile');
    }
+
+   public function message()
+   {
+       return view('main.others.message');
+   }
 }
