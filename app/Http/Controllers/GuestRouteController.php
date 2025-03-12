@@ -10,4 +10,9 @@ class GuestRouteController extends Controller
    {
        return view('main.home');
    }
+
+   public function contact()
+   {
+       return view('main.others.contact');
+   }
 }
