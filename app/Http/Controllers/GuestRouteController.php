@@ -25,4 +25,9 @@ class GuestRouteController extends Controller
    {
        return view('main.others.message');
    }
+
+   public function gallery()
+   {
+       return view('main.others.gallery');
+   }
 }
