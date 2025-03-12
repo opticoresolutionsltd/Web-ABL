@@ -1,1 +1,13 @@
-@vite('resources/js/app.js')
+<script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/aos.min.js')}}"></script>
+<script src="{{asset('js/bs-init.js')}}"></script>
+<script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+<script src="{{asset('js/validate.js')}}"></script>
+<script src="{{asset('js/aos.js')}}"></script>
+<script src="{{asset('js/swiper-bundle.min.js')}}"></script>
+<script src="{{asset('js/purecounter_vanilla.js')}}"></script>
+<script src="{{asset('js/main.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="{{asset('js/logo-slider.js')}}"></script>

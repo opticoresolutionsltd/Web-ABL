@@ -1,4 +1,26 @@
-@import url("mycss.css");
+@import url("bootstrap/css/bootstrap.min.css");
+@import url("bootstrap-icons.css");
+@import url("Font Awesome 5 Brands.css");
+@import url("Font Awesome 5 Free.css");
+@import url("Font Awesome 6 Brands.css");
+@import url("Font Awesome 6 Free.css");
+@import url("FontAwesome.css");
+@import url("swiper-icons.css");
+@import url("aos.min.css");
+@import url("bootstrap.min.css");
+@import url("bootstrap-icons.min.css");
+@import url("aos.css");
+@import url("all.min.css");
+@import url("swiper-bundle.min.css");
+@import url("main.css");
+@import url("Blog-Detail-App.css");
+@import url("Bootstrap-4---Photo-Gallery.css");
+@import url("BOOTSTRAP-IMAGE-HOVER.css");
+@import url("logo-slider.css");
+@import url("Scroll-To-Top.css");
+@import url("Videos-in-rows-2-and-3-videos-per-row.css");
+@import url("Whatsapp-flotating-button.css");
+
 
 @tailwind base;
 @tailwind components;
