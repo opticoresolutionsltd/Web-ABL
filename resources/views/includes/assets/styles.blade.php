@@ -27,3 +27,4 @@
 <link rel="stylesheet" href="{{asset('css/Scroll-To-Top.css')}}">
 <link rel="stylesheet" href="{{asset('css/Videos-in-rows-2-and-3-videos-per-row.css')}}">
 <link rel="stylesheet" href="{{asset('css/Whatsapp-flotating-button.css')}}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
