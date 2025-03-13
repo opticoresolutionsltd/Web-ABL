@@ -5,7 +5,7 @@
                 <h3 class="mb-3" style="font-weight: bold;">Discount and Offer</h3>
                 <p>Ongoing Projects</p>
             </div>
-            <div class="col-2 text-end text-right" style="position: relative;margin: 0px;"><a class="btn btn-primary mb-3 mr-1" role="button" href="#carouselExampleIndicators2" data-bs-slide="prev" style="margin-right: 2%;"><i class="fas fa-arrow-left"></i></a><a class="btn btn-primary mb-3" role="button" href="#carouselExampleIndicators2" data-bs-slide="next"><i class="fas fa-arrow-right"></i></a></div>
+            <div class="col-2 text-end text-right" style="position: relative;margin: 0px;"><a class="btn btn-primary mb-3 mr-1" role="button" href="#carouselExampleIndicators2" data-bs-slide="prev" style="margin-right: 2%;"><i class="bi bi-chevron-left"></i></a><a class="btn btn-primary mb-3" role="button" href="#carouselExampleIndicators2" data-bs-slide="next"><i class="fbi bi-chevron-right"></i></a></div>
             <div class="col-12">
                 <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000" data-ride="carousel" id="carouselExampleIndicators2">
                     <div class="carousel-inner">

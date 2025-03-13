@@ -29,7 +29,7 @@
             </div>
             <div class="col-sm-6 col-lg-3">
                 <h4>Follow Us</h4>
-                <div class="d-flex social-links"><a href="{{config('alliance.social_links.youtube')}}" class="youtube"><i class="bi bi-youtube"></i></a><a href="{{config('alliance.social_links.facebook')}}" class="facebook"><i class="bi bi-facebook"></i></a><a href="#" class="instagram"><i class="bi bi-instagram"></i></a><a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a></div>
+                <div class="d-flex social-links" style="font-family: Roboto;"><a href="{{config('alliance.social_links.youtube')}}" class="youtube"><i class="bi bi-youtube"></i></a><a href="{{config('alliance.social_links.facebook')}}" class="facebook"><i class="bi bi-facebook"></i></a><a href="#" class="instagram"><i class="bi bi-instagram"></i></a><a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a></div>
             </div>
         </div>
     </div>
