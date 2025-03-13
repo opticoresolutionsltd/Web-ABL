@@ -1,7 +1,7 @@
 <header class="d-flex align-items-center header fixed-top" id="header">
     <div class="d-flex justify-content-between align-items-center container-fluid container-xl position-relative"><a class="d-flex align-items-center logo" href="{{route('home')}}">
-            <img src="{{asset('images/logo/alliance builders.png')}}" alt="Alliance Builders Ltd. logo" style="transform: scale(2.1)" class="px-3 px-sm-1">
-            <h1 class="sitename px-3 px-sm-3" style="font-family: ZektonBold;" >Alliance&nbsp;<span>Builders</span></h1>
+            <img src="{{asset('images/logo/alliance logo.png')}}" alt="Alliance Builders Ltd. logo" style="transform: scale(2.1)" class="px-3 px-sm-1">
+            <h1 class="sitename px-3 px-sm-3" style="font-family: ZektonBold;" ><span>Alliance&nbsp;Builders</span></h1>
         </a>
         <nav id="navmenu" class="navmenu">
             <ul>
@@ -36,9 +36,9 @@
                 </li>
                 <li class="dropdown"><a href="#"><span>About Us</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="#">About Company</a></li>
-                        <li><a href="#">MD's Message</a></li>
-                        <li><a href="#">Media Coverage</a></li>
+                        <li><a href="{{route('about')}}">About Company</a></li>
+                        <li><a href="{{route('message')}}">MD's Message</a></li>
+                        <li><a href="{{route('media-coverage')}}">Media Coverage</a></li>
                         <li class="dropdown"><a href="#"><span>Gallery</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
                                 <li><a href="#">Project Handover</a></li>
@@ -49,7 +49,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="{{route('contact')}}">Contact</a></li>
+                <li><a href="{{route('contact')}}" @if(Route::currentRouteName() == 'contact')class="active"@endif>Contact</a></li>
             </ul><i class="d-xl-none mobile-nav-toggle bi bi-list"></i>
         </nav>
     </div>

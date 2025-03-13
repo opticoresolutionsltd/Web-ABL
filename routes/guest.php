@@ -11,6 +11,7 @@ Route::controller(GuestRouteController::class)->group(function(){
     Route::get('/message', 'message')->name('message');
     Route::get('/gallery', 'gallery')->name('gallery');
     Route::get('/media-coverage', 'media')->name('media-coverage');
+    Route::get('/about', 'about')->name('about');
 
 });
 

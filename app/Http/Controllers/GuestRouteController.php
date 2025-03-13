@@ -35,4 +35,9 @@ class GuestRouteController extends Controller
    {
        return view('main.others.media');
    }
+
+   public function about()
+   {
+       return view('main.others.about');
+   }
 }
