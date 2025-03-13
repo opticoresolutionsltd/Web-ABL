@@ -8,31 +8,33 @@
             <div class="col-sm-6 col-lg-3 d-flex"><i class="bi bi-geo-alt icon"></i>
                 <div class="address">
                     <h4>Address</h4>
-                    <p>House# 640 (1st Floor), West Kazipara</p>
-                    <p>Mirpur, Dhaka-1216, Bangladesh</p>
-                    <p></p>
+                    <a href="{{config('alliance.google_map.share')}}" target="_blank">
+                        <p>House# 640 (1st Floor), West Kazipara</p>
+                        <p>Mirpur, Dhaka-1216, Bangladesh</p>
+                    </a>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 d-flex"><i class="bi bi-telephone icon"></i>
                 <div>
                     <h4>Contact</h4>
-                    <p><strong>Phone:</strong><span> +88-01896204440</span><br><strong>Email:</strong><span> asad@alliancebuildersltd.org</span><br></p>
+                    <p><strong>Phone:</strong><span> <a href="tel:{{config('alliance.phone_number')}}">{{config('alliance.phone_number')}}</a></span><br><strong>Email:</strong><span> <a
+                                href="mailto:"{{config('alliance.email_address')}}>{{config('alliance.email_address')}}</a></span><br></p>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 d-flex"><i class="bi bi-clock icon"></i>
                 <div>
                     <h4>Opening Hours</h4>
-                    <p><strong>Mon-Sat:</strong><span>11AM - 23PM</span><br><strong>Sunday</strong>: <span>Closed</span></p>
+                    <p><strong>Wed-Mon: </strong><span>11:00 AM - 19:00 PM</span><br><strong>Tuesday</strong>: <span>Closed</span></p>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <h4>Follow Us</h4>
-                <div class="d-flex social-links"><a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a><a href="#" class="facebook"><i class="bi bi-facebook"></i></a><a href="#" class="instagram"><i class="bi bi-instagram"></i></a><a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a></div>
+                <div class="d-flex social-links"><a href="{{config('alliance.social_links.youtube')}}" class="youtube"><i class="bi bi-youtube"></i></a><a href="{{config('alliance.social_links.facebook')}}" class="facebook"><i class="bi bi-facebook"></i></a><a href="#" class="instagram"><i class="bi bi-instagram"></i></a><a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a></div>
             </div>
         </div>
     </div>
     <div class="container text-center copyright mt-4">
-        <p>© <span>Copyright</span><strong class="px-1 sitename">EstateAgency</strong><span>All Rights Reserved</span></p>
-        <div class="credits"><span> Designed by </span><a href="https://bootstrapmade.com/">BootstrapMade</a></div>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">{{config('alliance.brand_name_absolute')}}</strong><span>All Rights Reserved</span></p>
+        <div class="credits"><span> Developed by </span><a href="https://opticoresolutionsltd.com/" target="_blank">Opticore Solutions Limited</a></div>
     </div>
 </footer>
