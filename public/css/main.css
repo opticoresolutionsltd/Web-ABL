@@ -17,6 +17,11 @@
     src: url('../fonts/Poppins.ttf') format('truetype'); /* Path to the .ttf file */
 }
 
+@font-face {
+  font-family: ZektonBold;
+  src: url('../fonts/zektonbo.ttf') format('truetype');
+}
+
 :root {
   --default-font:  "Poppins", "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font:  "Poppins", "Roboto", "Raleway", sans-serif;
